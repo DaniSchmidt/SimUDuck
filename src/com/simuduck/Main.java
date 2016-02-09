@@ -1,7 +1,7 @@
 package com.simuduck;
 
 /**
- * Created by schmidtda on 09.02.2016.
+ * Created by schmidtda on 09.02.2016
  */
 public class Main {
     public static void main(String[] args) {
