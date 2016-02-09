@@ -6,8 +6,8 @@ package com.simuduck;
 public class NoFly implements FlyBehaviour {
 
     @Override
-    public void fly() {
-        System.out.println("-");
+    public String fly() {
+        return "";
     }
 
 }

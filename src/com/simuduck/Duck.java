@@ -25,8 +25,10 @@ public abstract class Duck {
         return quack;
     }
 
-    public final void fly() {
-        flyBehaviour.fly();
+    public final String fly() {
+        String fly = flyBehaviour.fly();
+        System.out.println(fly);
+        return fly;
     }
 
 }
