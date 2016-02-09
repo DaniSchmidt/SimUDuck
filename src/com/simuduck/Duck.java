@@ -19,11 +19,13 @@ public abstract class Duck {
 
     public abstract void display();
 
-    public void quack() {
-        quackBehaviour.quack();
+    public final String quack() {
+        String quack = quackBehaviour.quack();
+        System.out.println(quack);
+        return quack;
     }
 
-    public void fly() {
+    public final void fly() {
         flyBehaviour.fly();
     }
 
