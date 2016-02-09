@@ -6,8 +6,8 @@ package com.simuduck;
 public class Fly implements FlyBehaviour {
 
     @Override
-    public void fly() {
-        System.out.println("fly");
+    public String fly() {
+        return "fly";
     }
 
 }
