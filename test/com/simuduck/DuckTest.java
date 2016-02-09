@@ -15,6 +15,12 @@ public class DuckTest {
     }
 
     @Test
+    public void testRedHeadDuck() {
+        RedHeadDuck redHeadDuck = new RedHeadDuck();
+        Assert.assertEquals("quack", redHeadDuck.quack());
+    }
+
+    @Test
     public void testRubberDuck() {
         RubberDuck rubberDuck = new RubberDuck();
         Assert.assertEquals("squeak", rubberDuck.quack());
